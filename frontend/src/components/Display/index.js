@@ -15,7 +15,7 @@ export default function Display() {
 	const [optionsArr, setOptionsArr] = useState([])
 
 	/**
-	 * This function updates the pageType variable using the pageTpyes array in "data"
+	 * This function updates the pageType variable using the pageTypes array in "../../data/pageTypes.js"
 	 * This array contains the names of all the pages
 	 * The index variable is also updated by 1 each time the page needs to be changed
 	 */
@@ -29,9 +29,9 @@ export default function Display() {
 			console.log("End of application")
 		}
 	}
+	
 	/**
 	 * Sets the number of users to be equivalent to whatever number the user enters
-	 * 
 	 */
 	function numberOfUsers(event){
 		//To-do: only vaildate numbers under 10
